@@ -10,8 +10,8 @@ int main(void)
 
 	putchar('0');
 	for (i = 1; i < 10; i++)
-		putchair(',');
+		putchar(',');
 		putchar(' ');
 		putchar(i + '0');
-	return (o);
+	return (0);
 }
