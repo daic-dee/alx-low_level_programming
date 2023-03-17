@@ -12,11 +12,15 @@ int main(void)
 	n = rand() % 201 - 100;
 	if (n > 0)
 	{
-		printf("%d is a positive", n);
+		printf("%d is positive", n);
 	}
 	else if (n < 0)
 	{
-		printf("%d is a negative", n);
+		printf("%d is negative", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero", n);
 	}
 	else
 	{
