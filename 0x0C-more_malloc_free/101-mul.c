@@ -37,7 +37,7 @@ int str_len(char *s)
 	return (i);
 }
 /**
- * _error - error handler
+ * _errors - error handler
 */
 void _errors(void)
 {
